@@ -1,10 +1,23 @@
-# DeepL-Translate-API
+# Google Translate
 
 ## API
 
-| Method | Endpoint |
-| - | - |
-| GET | /translate |
+#### Request
+
+| Key | Type | Description |
+| - | - | - |
+| text | String | Text to be translated. |
+| source | String | Language before translation. |
+| target | String | Language after translation. |
+
+#### Response
+
+| Key | Type | Description |
+| - | - | - |
+| source | String | Text before translation. |
+| target | String | Text after translation. |
+
+# DeepL Translate
 
 ## Lambda Function
 
@@ -33,6 +46,7 @@
 To create zip file:
 
 ```
+$ cd deepl
 $ mkdir nodejs
 $ npm install
 $ mv package-lock.json node_modules ./nodejs
