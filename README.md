@@ -46,10 +46,10 @@
 To create zip file:
 
 ```
-$ cd deepl
-$ mkdir nodejs
-$ npm install
-$ mv package-lock.json node_modules ./nodejs
+$ mkdir nodejs && cd $_
+$ npm install chrome-aws-lambda
+$ npm install puppeteer-core
+$ cd ../
 $ zip -r package.zip ./nodejs
 ```
 
