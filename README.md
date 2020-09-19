@@ -58,7 +58,7 @@ $ zip -r package.zip ./nodejs
 - Use Lambda Proxy Integration.
 - Enable CORS.
 
-### /translate - GET
+### GET /translate
 
 #### Request
 
