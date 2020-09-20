@@ -60,7 +60,7 @@ $ zip -r package.zip ./nodejs
 
 ### GET /translate
 
-#### Request
+#### Request Parameters
 
 | Key | Type | Description |
 | - | - | - |
@@ -68,7 +68,7 @@ $ zip -r package.zip ./nodejs
 | source | String | Language before translation. |
 | target | String | Language after translation. |
 
-#### Response
+#### Response Body
 
 | Key | Type | Description |
 | - | - | - |
